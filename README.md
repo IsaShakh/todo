@@ -20,7 +20,7 @@
 Для начала клонируйте репозиторий на вашу локальную машину:
 
 ```bash
-git clone https://github.com/yourusername/todo.git
+git clone https://github.com/IsaShakh/todo.git
 cd todo
 ```
 
