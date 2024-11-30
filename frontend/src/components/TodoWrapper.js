@@ -2,7 +2,12 @@ import React, { useState, useEffect } from "react";
 import TodoForm from "./TodoForm";
 import { Todo } from "./Todo";
 
-const API_URL = "http://localhost:8000/tasks";
+let API_URL;
+if (window.location.hostname === "localhost") {
+    API_URL = "http://localhost:8000/tasks";
+} else {
+    API_URL = "http://130.193.56.106/:8000/tasks";
+}
 
 const TodoWrapper = () => {
   const [todos, setTodos] = useState([]);
