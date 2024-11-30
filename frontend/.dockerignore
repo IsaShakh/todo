@@ -1,0 +1,16 @@
+# Исключаем папку с установленными зависимостями
+node_modules/
+
+# Исключаем системные файлы
+*.log
+.DS_Store
+*.env
+
+# Исключаем файлы IDE
+.vscode/
+.idea/
+
+
+# Исключаем Dockerfile и .dockerignore
+Dockerfile
+.dockerignore

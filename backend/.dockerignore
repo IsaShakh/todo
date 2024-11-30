@@ -1,0 +1,19 @@
+# Исключаем временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Исключаем системные файлы
+*.log
+*.db
+*.sqlite3
+*.env
+
+# Исключаем IDE файлы
+.vscode/
+.idea/
+*.swp
+
+# Исключаем Dockerfile и .dockerignore (их уже не нужно копировать)
+Dockerfile
+.dockerignore
