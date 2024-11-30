@@ -6,7 +6,7 @@ let API_URL;
 if (window.location.hostname === "localhost") {
     API_URL = "http://localhost:8000/tasks";
 } else {
-    API_URL = "http://130.193.56.106:8000/tasks";
+    API_URL = "http://130.193.56.106:8000/tasks"; //ee
 }
 
 const TodoWrapper = () => {
